@@ -14,7 +14,7 @@ const Hero = (props) => (
     <SectionText>
       An Expirienced Professional Web developer specialising in React, Django and Machine learning. We Offer Best Quality Software Products at an affordable Price. 
     </SectionText>
-    <Button onClick={() => window.location = 'https://google.com'}>
+    <Button onClick={() => window.location = '#projects'}>
     Learn More
     </Button>
   </LeftSection>

@@ -46,9 +46,8 @@ const Timeline = () => {
     <Section id="about"> 
     <SectionTitle>About Me</SectionTitle>
     <SectionText>
-      Am an experienced Web developer with five years of
-      Profesional experience.I deploy Latest Technologies that
-      are meant to deliver quality products that meet the clients satisfaction.
+        Am an experienced Web developer, Machine Learning and Web3 expert. Am a final year Pursuing Software
+        Engineering degree.I develop & deliver quality Products that meet the clients satisfaction.
     </SectionText>
     <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
     <>

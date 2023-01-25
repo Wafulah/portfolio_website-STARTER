@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaRobot, FaLock  } from "react-icons/fa";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -30,18 +31,28 @@ const Technologies = () =>  (
       <ListTitle>Back-End</ListTitle>
       <ListParagraph>
       Experience with <br />
-      Node and Django
+      Django
       </ListParagraph>
     </ListContainer>
   </ListItem>
 
   <ListItem>
-    <DiZend size="3rem"/>
+    <FaLock size="3rem"/>
     <ListContainer>
-      <ListTitle>UI/UX</ListTitle>
+      <ListTitle>Web3</ListTitle>
       <ListParagraph>
       Experience with <br />
-      Design Tools
+      Blockchain
+      </ListParagraph>
+    </ListContainer>
+  </ListItem>
+
+  <ListItem>
+    <FaRobot size="3rem"/>
+      <ListContainer>
+      <ListTitle>ML</ListTitle>
+      <ListParagraph>
+      Machine Learning expert
       </ListParagraph>
     </ListContainer>
   </ListItem>
